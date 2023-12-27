@@ -161,7 +161,6 @@ const btnAccion = e => {
         /* carrito[e.target.dataset.id] */
         const producto = carrito[e.target.dataset.id];
         producto.cantidad++
-        producto.cantidad = carrito[e.target.dataset.id].cantidad +1
         carrito[e.target.dataset.id] = { ...producto}
         pintarCarrito()
     }
